@@ -1,0 +1,100 @@
+/*Navigation bar*/
+header img{
+    width: 90px;  
+    padding-left: 10px;
+}
+
+header {
+    /*source: https://codetheweb.blog/2017/12/12/style-a-navigation-bar-css/*/
+    background-image: url('violet_art\ copy.jpg'); /*source: https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwj3yujE65rkAhWGT30KHV_4CdwQjhx6BAgBEAI&url=https%3A%2F%2Fwww.netflix.com%2Ftitle%2F80182123&psig=AOvVaw3oNNFZZrUtpFuNVZzeqe3v&ust=1566713164261690*/
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+    display: flex; 
+    align-items: center;
+    box-shadow: 0 0 10px 0 black;
+}
+
+header *{
+    display: inline;
+}
+
+header li{
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: Luminari, fantasy;
+    text-decoration: none;
+}
+
+header li a{
+    text-decoration: none;
+    
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+#active {
+    background-image: url("violet_flower.png"); /*source: https://x0401x.tumblr.com/post/170676434726/flower-symbolism-in-violet-evergarden */
+}
+header li a:hover {
+    background-color: pink;
+  }
+
+body{
+    margin-top: 130px;
+    background-image: url('Background.jpg'); /*https://www.shutterstock.com/video/clip-4293464-ornamental-vintage-paper-loop-background*/
+}
+
+.content{
+    width: 80%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow:0 0 10px 0 black;
+}
+
+#img{
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);  
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+
+#title pre{
+    /*For comment*/
+    font-family: Luminari, fantasy;
+    font-size: 40px;
+    color: brown;
+    text-align: center;
+    padding: 10px;
+    
+}
+td{
+    padding: 10px;
+
+}
+
+#main{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#main span{
+    color: darkviolet;
+    font-family: Luminari, fantasy;
+}
+
+footer{
+    background-color: red;
+}
+
+
+
+
